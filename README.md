@@ -13,6 +13,9 @@ There are 4 main components in this pet store: Authentication, User, Pet, and Or
 ## Assumption
 This API is for a store that is mainly maintained by store admins, who have CRUD access to all endpoints.
 
+## Installation
+Pull the code, run composer install, then run phpunit test command ./vendor/bin/phpunit for testing. Can also use API client like Postman or Insomnia to interact with the API (needs to create at least 1 admin account and API token for that account)
+
 ## Suggested Improvements
 In future, maybe provide APIs to turn this into multi-tenant store, where normal users can manage their own pets and orders.
 
